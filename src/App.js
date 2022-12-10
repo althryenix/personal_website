@@ -12,9 +12,10 @@ function App() {
     window.location.href = "./";
   }
 
-  window.scrollTo(0,0);
+  window.scrollTo(0, 0);
 
   const StyledButton = (props) => (
+
     <Button
       disableRipple={true}
       disableTouchRipple={true}
@@ -42,96 +43,120 @@ function App() {
 
   return (
     <>
-    <div>
-      <div className="App">
-        <header className="App-header">
-          <h1 data-aos="fade-up" >tamer alkım tokuç</h1>
-          <h6 data-aos="fade-up" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
-        </header>
+      <div>
+        <div className="App">
+          <header className="App-header" style={{ userSelect: "none" }}>
+            <h1 data-aos="fade-up" >tamer alkım tokuç</h1>
+            <h6 data-aos="fade-up" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
+          </header>
+        </div>
+
+
+        <div className='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
+
+          <StyledButton href="#personal">personal info</StyledButton>
+          <br />
+
+          <StyledButton href="#education">education</StyledButton>
+          <br />
+
+          <StyledButton href="#experience">experience</StyledButton>
+          <br />
+
+          <StyledButton href="#test">test</StyledButton>
+          <br />
+
+          <StyledButton href="#links">links</StyledButton>
+          <br />
+        </div>
+
+        <hr color="#404040" />
       </div>
 
+      <div>
+        <div className="section" id='personal'>
 
-      <div className='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1400">
+          <h3>Personal info</h3>
 
-        <StyledButton href="#personal">personal info</StyledButton>
-        <br />
+          <h4>who am i?</h4>
 
-        <StyledButton href="#education">education</StyledButton>
-        <br />
+          <p>I am Tamer Alkım Tokuç, a student from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
+          <p>I am playing drums since 2016. Art plays a big role in my life and I like it to reflect it on my work as well.</p>
+          <p>Motorsports are my passion and I volunteer as marshall in TOSFED/FIA.</p>
 
-        <StyledButton href="#experience">experience</StyledButton>
-        <br />
+          <h4>what do i do?</h4>
 
-        <StyledButton href="#test">test</StyledButton>
-        <br />
+          <p>
+            I can use Java to develop anything.
+            I started learning it in university and
+            improved myself by taking external courses and building projects.
+          </p>
+          <br />
+          <p>
+            I learned Python from external resources to improve my career options and
+            general knowledge. I am still learning advanced technologies, such as web scraping,
+            Selenium, NumPy, and Pandas.
+          </p>
+          <br />
+          <p>
+            I started learning HTML and CSS for my first internship and continued my frontend web developer
+            career path by learning JavaScript and React. I used both technologies in my second
+            internship and now I am pursuing career in the field.
+          </p>
 
-        <StyledButton href="#links">links</StyledButton>
-        <br />
-      </div>
+        </div>
 
-      <hr color="#404040" />
-    </div>
-      
+        <hr color="#404040" />
 
-      <div className="section" id='personal'>
+        <div className='section' id="education">
+          <h3>Education</h3>
+          <h4>school</h4>
+          <p>
+            currently studying in ted university, computer engineering department
+          </p>
+        </div>
 
-        <h3>Personal info</h3>
+        <hr color="#404040" />
 
-        <h4>who am i?</h4>
+        <div className='section' id="experience">
+          <h3>Experience</h3>
+          <h4>internship</h4>
 
-        <p>I am Tamer Alkım Tokuç, a student from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
-        <p>I am playing drums since 2016. Art plays a big role in my life and I like it to reflect it on my work as well.</p>
-        <p>Motorsports are my passion and I volunteer as marshall in TOSFED/FIA.</p>
+          <h5>WiNK SRL</h5>
+          <h6>rome / italy - 27/06/2022 - 02/09/2022</h6>
 
-        <h4>what do i do?</h4>
+          <p>Added elements and improved UX of a commercial project. </p>
+          <p>Built recruiting website using React and Node.js.</p>
+          <p>Optimized existing company website to reduce load time and backup size.</p>
+          <p>Built recquitment management system using Keystone 6.</p>
 
-        <p>
-          I can use Java to develop anything. I started learning it in university and improved myself by taking external courses and building projects.
-          I also took algorithms and data structures courses to improve my abilities.
-        </p>
-        <p>Frontend development</p>
+          <hr width="80%" />
 
-      </div>
+          <h5>infomedya ajans</h5>
+          <h6>ankara / turkey - 25/07/2022 - 20/08/2022</h6>
 
-      <hr color="#404040" />
+          <p>Created a Java program to check MX, DNS, and A addresses of websites owned by the company.</p>
+          <p>Created a multiple page website using HTML and CSS.</p>
+          <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
 
-      <div className='section' id="education">
-        <h3>Education</h3>
-        <h4>school</h4>
-        <p>
-          currently studying in ted university, computer engineering department
-        </p>
-      </div>
+        </div>
 
-      <hr color="#404040" />
+        <hr color="#404040" />
 
-      <div className='section' id="experience">
-        <h3>Experience</h3>
-        <h4>internship</h4>
-        <h5>infomedya ajans - ankara / turkey</h5>
+        <div className='section' id="test">
+          <h3>Test</h3>
+          <p>lorem</p>
+        </div>
 
-        <p>
-          lorem ipsum
-        </p>
-      </div>
+        <hr color="#404040" />
 
-      <hr color="#404040" />
-
-      <div className='section' id="test">
-        <h3>Test</h3>
-        <p>lorem</p>
-      </div>
-
-      <hr color="#404040" />
-
-      <div className='section' id="links">
-        <h3>Links</h3>
-        <h4>-----github link------</h4>
-        <h4>-----linkedin link------</h4>
-        <h4>-----hackerrank link------</h4>
-        <h4>-----codegolf link------</h4>
-        <h4>-----stack link------</h4>
-
+        <div className='section' id="links">
+          <h3>Links</h3>
+          <a href="https://github.com/althryenix" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/tmralkim/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.hackerrank.com/tameralkim" target="_blank" rel="noreferrer">HackerRank</a>
+          <a href="https://code.golf/golfers/althryenix" target="_blank" rel="noreferrer">Code golf</a>
+        </div>
       </div>
     </>
   );
