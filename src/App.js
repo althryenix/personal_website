@@ -91,10 +91,18 @@ function App() {
             I started learning it in university and
             improved myself by taking external courses and building projects.
           </p>
+          <br />
           <p>
-            I learned Python to improve my career 
+            I learned Python from external resources to improve my career options and
+            general knowledge. I am still learning advanced technologies, such as web scraping,
+            Selenium, NumPy, and Pandas.
           </p>
-          <p>Frontend development</p>
+          <br />
+          <p>
+            I started learning HTML and CSS for my first internship and continued my frontend web developer
+            career path by learning JavaScript and React. I used both technologies in my second
+            internship and now I am pursuing career in the field.
+          </p>
 
         </div>
 
@@ -113,11 +121,24 @@ function App() {
         <div className='section' id="experience">
           <h3>Experience</h3>
           <h4>internship</h4>
-          <h5>infomedya ajans - ankara / turkey</h5>
 
-          <p>
-            lorem ipsum
-          </p>
+          <h5>WiNK SRL</h5>
+          <h6>rome / italy - 27/06/2022 - 02/09/2022</h6>
+
+          <p>Added elements and improved UX of a commercial project. </p>
+          <p>Built recruiting website using React and Node.js.</p>
+          <p>Optimized existing company website to reduce load time and backup size.</p>
+          <p>Built recquitment management system using Keystone 6.</p>
+
+          <hr width="80%" />
+
+          <h5>infomedya ajans</h5>
+          <h6>ankara / turkey - 25/07/2022 - 20/08/2022</h6>
+
+          <p>Created a Java program to check MX, DNS, and A addresses of websites owned by the company.</p>
+          <p>Created a multiple page website using HTML and CSS.</p>
+          <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
+
         </div>
 
         <hr color="#404040" />
@@ -131,12 +152,10 @@ function App() {
 
         <div className='section' id="links">
           <h3>Links</h3>
-          <h4>-----github link------</h4>
-          <h4>-----linkedin link------</h4>
-          <h4>-----hackerrank link------</h4>
-          <h4>-----codegolf link------</h4>
-          <h4>-----stack link------</h4>
-
+          <a href="https://github.com/althryenix" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/tmralkim/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.hackerrank.com/tameralkim" target="_blank" rel="noreferrer">HackerRank</a>
+          <a href="https://code.golf/golfers/althryenix" target="_blank" rel="noreferrer">Code golf</a>
         </div>
       </div>
     </>
