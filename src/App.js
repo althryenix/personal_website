@@ -69,16 +69,16 @@ function App() {
 
             <h3>Personal info</h3>
 
-            <h4>who am i?</h4>
+            <h4>Who am i?</h4>
 
             <p>I am Tamer Alkım Tokuç, a student from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
             <p>I am playing drums since 2016. Art plays a big role in my life and I like it to reflect it on my work as well.</p>
             <p>Motorsports are my passion and I volunteer as marshall in TOSFED/FIA.</p>
 
-            <h4>what do i do?</h4>
+            <h4>What do i do?</h4>
 
             <div>
-              <p><a href="../public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+              <p><a className="cv-link" href="../public/Tamer Alkım TOKUÇ - CV.pdf">My CV</a></p>
 
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
@@ -105,7 +105,7 @@ function App() {
 
           <div className='section' id="education">
             <h3>Education</h3>
-            <h4>school</h4>
+            <h4>School</h4>
             <h5>TED University</h5>
             <p>
               Currently studying in computer engineering department.
@@ -119,7 +119,7 @@ function App() {
 
           <div className='section' id="experience">
             <h3>Experience</h3>
-            <h4>internship</h4>
+            <h4>Internship</h4>
 
             <h5>WiNK SRL</h5>
             <h6>rome / italy - 27/06/2022 - 02/09/2022</h6>
@@ -131,26 +131,26 @@ function App() {
 
             <hr width="80%" />
 
-            <h5>infomedya ajans</h5>
+            <h5>Infomedya ajans</h5>
             <h6>ankara / turkey - 25/07/2022 - 20/08/2022</h6>
 
             <p>Created a Java program to check MX, DNS, and A addresses of websites owned by the company.</p>
             <p>Created a multiple page website using HTML and CSS.</p>
             <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
 
-            <h4>projects</h4>
+            <h4>Projects</h4>
             <h5>THIS WEBSITE!</h5>
-            <p>HOW COOL IS IT TO BUILD YOUR OWN WEBSITE, USE REACT DEV TOOLS TO SEE MY SHITTY CODE!</p>
+            <p>HOW COOL IS IT TO BUILD YOUR OWN WEBSITE, USE REACT DEV TOOLS TO SEE MY BAD CODE!</p>
 
             <hr width="80%" />
 
-            <h5>pianissimo</h5>
+            <h5>Pianissimo</h5>
             <h6>senior project</h6>
             <p>A Python 3 program using wave analysis and AI to create sheet music from audio files. Working with group of 4.</p>
 
             <hr width="80%" />
 
-            <h5>the last stand</h5>
+            <h5>The Last Stand</h5>
             <p>Game developed using Unity with group of 2 for Game Developing class. Built a 3D FPS game with enemy AI, minigames, and multiple scenes.</p>
           </div>
 
