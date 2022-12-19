@@ -37,7 +37,6 @@ html {
     background: linear-gradient(0deg, #191919, #292929, #393939, #494949);
     background-size: 400% 400%;
     animation: gradient 3s normal forwards;
-    height: 100vh;
 }
 
 @keyframes gradient {
@@ -98,6 +97,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 0;
+  margin-bottom: 2vh;
   font-size: 3vmin;
   color: #505050;
 }

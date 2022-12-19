@@ -14,25 +14,28 @@ function App() {
 
   const StyledButton = (props) => (
 
-    <Button
-      disableRipple={true}
-      disableTouchRipple={true}
-      type='text'
-      sx={{
-        '&:hover': { backgroundColor: '#20202090' },
-        color: '#696969',
-        width: "100%",
-        textAlign: "left",
-        textTransform: "none",
-        height: "14vh"
-      }}
-      style={{
-        fontSize: '7vmin'
-      }}
-      href={props.href}
-    >
-      {props.children}
-    </Button>
+    <GlitchText onHover={true}>
+      <Button
+        disableRipple={true}
+        disableTouchRipple={true}
+        type='text'
+        sx={{
+          '&:hover': { backgroundColor: '#20202090' },
+          color: '#696969',
+          width: "100%",
+          textAlign: "left",
+          textTransform: "none",
+          height: "12vh"
+        }}
+        style={{
+          fontSize: '7vmin'
+        }}
+        href={props.href}
+      >
+        {props.children}
+      </Button>
+    </GlitchText>
+
   );
 
   return (
@@ -111,8 +114,12 @@ function App() {
           <div className='section' id="education">
             <h3>Education</h3>
             <h4>school</h4>
+            <h5>TED University</h5>
             <p>
-              currently studying in ted university, computer engineering department
+              Currently studying in computer engineering department.
+              I will graduate this summer. My current GPA is 3.32.
+              I took "Data Structures and Algorithms" courses on Java.
+              In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
             </p>
           </div>
 
@@ -139,6 +146,20 @@ function App() {
             <p>Created a multiple page website using HTML and CSS.</p>
             <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
 
+            <h4>projects</h4>
+            <h5>THIS WEBSITE!</h5>
+            <p>HOW COOL IS IT TO BUILD YOUR OWN WEBSITE, USE REACT DEV TOOLS TO SEE MY SHITTY CODE!</p>
+
+            <hr width="80%" />
+
+            <h5>pianissimo</h5>
+            <h6>senior project</h6>
+            <p>A Python 3 program using wave analysis and AI to create sheet music from audio files. Working with group of 4.</p>
+
+            <hr width="80%" />
+
+            <h5>the last stand</h5>
+            <p>Game developed using Unity with group of 2 for Game Developing class. Built a 3D FPS game with enemy AI, minigames, and multiple scenes.</p>
           </div>
 
           <hr color="#404040" />
