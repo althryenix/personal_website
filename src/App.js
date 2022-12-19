@@ -22,7 +22,7 @@ function App() {
         width: "100%",
         textAlign: "left",
         textTransform: "none",
-        height: "12vh"
+        height: "14vh"
       }}
       style={{
         fontSize: '7vmin'
