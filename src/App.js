@@ -1,7 +1,5 @@
 import React from 'react';
 import { Button } from '@mui/material';
-import GlitchText from 'react-glitch-effect/core/GlitchText';
-import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./App.css"
@@ -14,27 +12,25 @@ function App() {
 
   const StyledButton = (props) => (
 
-    <GlitchText onHover={true}>
-      <Button
-        disableRipple={true}
-        disableTouchRipple={true}
-        type='text'
-        sx={{
-          '&:hover': { backgroundColor: '#20202090' },
-          color: '#696969',
-          width: "100%",
-          textAlign: "left",
-          textTransform: "none",
-          height: "12vh"
-        }}
-        style={{
-          fontSize: '7vmin'
-        }}
-        href={props.href}
-      >
-        {props.children}
-      </Button>
-    </GlitchText>
+    <Button
+      disableRipple={true}
+      disableTouchRipple={true}
+      type='text'
+      sx={{
+        '&:hover': { backgroundColor: '#20202090' },
+        color: '#696969',
+        width: "100%",
+        textAlign: "left",
+        textTransform: "none",
+        height: "12vh"
+      }}
+      style={{
+        fontSize: '7vmin'
+      }}
+      href={props.href}
+    >
+      {props.children}
+    </Button>
 
   );
 
@@ -43,12 +39,8 @@ function App() {
       <div className="App">
         <div className='Top'>
           <header className="header" style={{ userSelect: "none" }}>
-            <GlitchText duration={1000}>
-              <GlitchClip onHover={true}>
-                <h1 data-aos="fade-down">tamer alkım tokuç</h1>
-              </GlitchClip>
-              <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
-            </GlitchText>
+            <h1 data-aos="fade-down">tamer alkım tokuç</h1>
+            <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
           </header>
 
           <div className='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
