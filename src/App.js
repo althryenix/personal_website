@@ -175,7 +175,7 @@ function App() {
           <div className='section' id="links">
             <h3>Links</h3>
             <a href="https://github.com/althryenix" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/tmralkim/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/tmralkim" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://www.hackerrank.com/tameralkim" target="_blank" rel="noreferrer">HackerRank</a>
             <a href="https://code.golf/golfers/althryenix" target="_blank" rel="noreferrer">Code golf</a>
           </div>
