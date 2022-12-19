@@ -2,12 +2,6 @@ html {
   scroll-behavior: smooth
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -40,9 +34,9 @@ body {
 }
 
 .Top{
-    background: linear-gradient(0deg, #191919, #222222, #242424, #262626);
+    background: linear-gradient(0deg, #191919, #292929, #393939, #494949);
     background-size: 400% 400%;
-    animation: gradient 5s normal forwards;
+    animation: gradient 3s normal forwards;
     height: 100vh;
 }
 

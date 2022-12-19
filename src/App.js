@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from '@mui/material';
+import GlitchText from 'react-glitch-effect/core/GlitchText';
+import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./App.css"
@@ -18,18 +20,14 @@ function App() {
       type='text'
       sx={{
         '&:hover': { backgroundColor: '#20202090' },
-        fontSize: '7vmin', color: '#696969',
+        color: '#696969',
         width: "100%",
         textAlign: "left",
         textTransform: "none",
         height: "14vh"
       }}
       style={{
-        fontSize: '7vmin',
-        // eslint-disable-next-line no-useless-computed-key
-        ['@media (minWidth:600px)']: {
-          fontSize: '10px'
-        }
+        fontSize: '7vmin'
       }}
       href={props.href}
     >
@@ -42,8 +40,12 @@ function App() {
       <div className="App">
         <div className='Top'>
           <header className="header" style={{ userSelect: "none" }}>
-            <h1 data-aos="fade-down" >tamer alkım tokuç</h1>
-            <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
+            <GlitchText duration={1000}>
+              <GlitchClip onHover={true}>
+                <h1 data-aos="fade-down">tamer alkım tokuç</h1>
+              </GlitchClip>
+              <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
+            </GlitchText>
           </header>
 
           <div className='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
@@ -81,6 +83,13 @@ function App() {
             <h4>what do i do?</h4>
 
             <div>
+              <p><a href="../public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+
+              <p>
+                I started learning HTML and CSS for my first internship and continued my frontend web developer
+                career path by learning JavaScript and React. I used both technologies in my second
+                internship and now I am pursuing career in the field.
+              </p>
 
               <p>
                 I can use Java to develop anything.
@@ -93,13 +102,6 @@ function App() {
                 general knowledge. I am still learning advanced technologies, such as web scraping,
                 Selenium, NumPy, and Pandas.
               </p>
-
-              <p>
-                I started learning HTML and CSS for my first internship and continued my frontend web developer
-                career path by learning JavaScript and React. I used both technologies in my second
-                internship and now I am pursuing career in the field.
-              </p>
-
             </div>
 
           </div>
