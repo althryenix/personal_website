@@ -18,23 +18,20 @@ function App() {
       type='text'
       sx={{
         '&:hover': { backgroundColor: '#20202090' },
-        fontSize: '7vmin', color: '#696969',
+        color: '#696969',
         width: "100%",
         textAlign: "left",
         textTransform: "none",
-        height: "14vh"
+        height: "12vh"
       }}
       style={{
-        fontSize: '7vmin',
-        // eslint-disable-next-line no-useless-computed-key
-        ['@media (minWidth:600px)']: {
-          fontSize: '10px'
-        }
+        fontSize: '7vmin'
       }}
       href={props.href}
     >
       {props.children}
     </Button>
+
   );
 
   return (
@@ -42,7 +39,7 @@ function App() {
       <div className="App">
         <div className='Top'>
           <header className="header" style={{ userSelect: "none" }}>
-            <h1 data-aos="fade-down" >tamer alkım tokuç</h1>
+            <h1 data-aos="fade-down">tamer alkım tokuç</h1>
             <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
           </header>
 
@@ -81,6 +78,13 @@ function App() {
             <h4>what do i do?</h4>
 
             <div>
+              <p><a href="../public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+
+              <p>
+                I started learning HTML and CSS for my first internship and continued my frontend web developer
+                career path by learning JavaScript and React. I used both technologies in my second
+                internship and now I am pursuing career in the field.
+              </p>
 
               <p>
                 I can use Java to develop anything.
@@ -93,13 +97,6 @@ function App() {
                 general knowledge. I am still learning advanced technologies, such as web scraping,
                 Selenium, NumPy, and Pandas.
               </p>
-
-              <p>
-                I started learning HTML and CSS for my first internship and continued my frontend web developer
-                career path by learning JavaScript and React. I used both technologies in my second
-                internship and now I am pursuing career in the field.
-              </p>
-
             </div>
 
           </div>
@@ -109,8 +106,12 @@ function App() {
           <div className='section' id="education">
             <h3>Education</h3>
             <h4>school</h4>
+            <h5>TED University</h5>
             <p>
-              currently studying in ted university, computer engineering department
+              Currently studying in computer engineering department.
+              I will graduate this summer. My current GPA is 3.32.
+              I took "Data Structures and Algorithms" courses on Java.
+              In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
             </p>
           </div>
 
@@ -137,6 +138,20 @@ function App() {
             <p>Created a multiple page website using HTML and CSS.</p>
             <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
 
+            <h4>projects</h4>
+            <h5>THIS WEBSITE!</h5>
+            <p>HOW COOL IS IT TO BUILD YOUR OWN WEBSITE, USE REACT DEV TOOLS TO SEE MY SHITTY CODE!</p>
+
+            <hr width="80%" />
+
+            <h5>pianissimo</h5>
+            <h6>senior project</h6>
+            <p>A Python 3 program using wave analysis and AI to create sheet music from audio files. Working with group of 4.</p>
+
+            <hr width="80%" />
+
+            <h5>the last stand</h5>
+            <p>Game developed using Unity with group of 2 for Game Developing class. Built a 3D FPS game with enemy AI, minigames, and multiple scenes.</p>
           </div>
 
           <hr color="#404040" />
@@ -152,7 +167,7 @@ function App() {
           <div className='section' id="links">
             <h3>Links</h3>
             <a href="https://github.com/althryenix" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/tmralkim/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/tmralkim" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://www.hackerrank.com/tameralkim" target="_blank" rel="noreferrer">HackerRank</a>
             <a href="https://code.golf/golfers/althryenix" target="_blank" rel="noreferrer">Code golf</a>
           </div>
