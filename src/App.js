@@ -43,7 +43,7 @@ function App() {
             <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
           </header>
 
-          <div className='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
+          <div id='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
 
             <StyledButton href="#personal">personal info</StyledButton>
             <br />
@@ -64,21 +64,21 @@ function App() {
           <hr color="#404040" />
         </div>
 
-        <div className='Page'>
+        <div id='Page'>
           <div className="section" id='personal'>
 
             <h3>Personal info</h3>
 
-            <h4>Who am i?</h4>
+            <h4>Who am I?</h4>
 
             <p>I am Tamer Alkım Tokuç, a student from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
             <p>I am playing drums since 2016. Art plays a big role in my life and I like it to reflect it on my work as well.</p>
             <p>Motorsports are my passion and I volunteer as marshall in TOSFED/FIA.</p>
 
-            <h4>What do i do?</h4>
+            <h4>What do I do?</h4>
 
             <div>
-              <p><a className="cv-link" href="/public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+              <p><a id="cv-link" href="public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
 
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
@@ -109,10 +109,15 @@ function App() {
             <h5>TED University</h5>
             <p>
               Currently studying in computer engineering department.
-              I will graduate this summer. My current GPA is 3.32.
+              I will graduate this summer. My current GPA is 3.33.
               I took "Data Structures and Algorithms" courses on Java.
               In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
             </p>
+
+            <h4>Certificates</h4>
+            <h5>BTK Akademi</h5>
+            <p>REACT İle Web Programcılığı (Web programming with REACT)</p>
+
           </div>
 
           <hr color="#404040" />
@@ -122,7 +127,7 @@ function App() {
             <h4>Internship</h4>
 
             <h5>WiNK SRL</h5>
-            <h6>rome / italy - 27/06/2022 - 02/09/2022</h6>
+            <h6>Rome / Italy - 27/06/2022 - 02/09/2022</h6>
 
             <p>Added elements and improved UX of a commercial project. </p>
             <p>Built recruiting website using React and Node.js.</p>
@@ -131,8 +136,8 @@ function App() {
 
             <hr width="80%" />
 
-            <h5>Infomedya ajans</h5>
-            <h6>ankara / turkey - 25/07/2022 - 20/08/2022</h6>
+            <h5>Infomedya Ajans</h5>
+            <h6>Ankara / Turkey - 25/07/2022 - 20/08/2022</h6>
 
             <p>Created a Java program to check MX, DNS, and A addresses of websites owned by the company.</p>
             <p>Created a multiple page website using HTML and CSS.</p>
