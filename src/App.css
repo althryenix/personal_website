@@ -37,6 +37,7 @@ html {
     background: linear-gradient(0deg, #191919, #292929, #393939, #494949);
     background-size: 400% 400%;
     animation: gradient 3s normal forwards;
+    image-rendering: pixelated;
 }
 
 @keyframes gradient {
