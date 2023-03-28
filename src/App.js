@@ -81,7 +81,7 @@ function App() {
             <h4>What do I do?</h4>
 
             <div>
-              <p><a id="cv-link" href="public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+              <p><a id="cv-link" href="./Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
 
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
