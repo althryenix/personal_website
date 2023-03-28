@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@mui/material';
+import { Button} from '@mui/material';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./App.css"
@@ -17,12 +17,13 @@ function App() {
       disableTouchRipple={true}
       type='text'
       sx={{
-        '&:hover': { backgroundColor: '#20202090' },
+        '&:hover': { backgroundColor: '#35353590',
+                      color: '#bababa' },
         color: '#696969',
         width: "100%",
         textAlign: "left",
         textTransform: "none",
-        height: "14vh"
+        height: "15vh"
       }}
       style={{
         fontSize: '7vmin'
@@ -34,10 +35,12 @@ function App() {
 
   );
 
+
   return (
     <>
       <div className="App">
         <div className='Top'>
+
           <header className="header" style={{ userSelect: "none" }}>
             <h1 data-aos="fade-down">tamer alkım tokuç</h1>
             <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
@@ -78,7 +81,7 @@ function App() {
             <h4>What do I do?</h4>
 
             <div>
-              <p><a id="cv-link" href="public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+              <p><a id="cv-link" href="./Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
 
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
@@ -116,7 +119,7 @@ function App() {
 
             <h4>Certificates</h4>
             <h5>BTK Akademi</h5>
-            <p>REACT İle Web Programcılığı (Web programming with REACT)</p>
+            <p>REACT İle Web Programcılığı <br/> (Web programming with REACT)</p>
 
           </div>
 
@@ -131,8 +134,9 @@ function App() {
 
             <p>Added elements and improved UX of a commercial project. </p>
             <p>Built recruiting website using React and Node.js.</p>
+            <p>Built recquitment management system using Keystone 6 and GraphQL.</p>
             <p>Optimized existing company website to reduce load time and backup size.</p>
-            <p>Built recquitment management system using Keystone 6.</p>
+
 
             <hr width="80%" />
 
@@ -144,8 +148,8 @@ function App() {
             <p>Performed presentations to engineer branch about "clean coding" and "refactoring".</p>
 
             <h4>Projects</h4>
-            <h5>THIS WEBSITE!</h5>
-            <p>HOW COOL IS IT TO BUILD YOUR OWN WEBSITE, USE REACT DEV TOOLS TO SEE MY BAD CODE!</p>
+            <h5>This Website</h5>
+            <p>Inspired by old VHS tape boxes in design. I created this website to give more information about me.</p>
 
             <hr width="80%" />
 
