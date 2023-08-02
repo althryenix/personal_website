@@ -8,10 +8,7 @@ function App() {
 
   AOS.init();
 
-  window.scrollTo(0, 0);
-
   const StyledButton = (props) => (
-
     <Button
       disableRipple={true}
       disableTouchRipple={true}
@@ -32,7 +29,6 @@ function App() {
     >
       {props.children}
     </Button>
-
   );
 
 
@@ -43,7 +39,7 @@ function App() {
 
           <header className="header" style={{ userSelect: "none" }}>
             <h1 data-aos="fade-down">tamer alkım tokuç</h1>
-            <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
+            <h6 data-aos="fade-down" data-aos-delay="400">web developer</h6>
           </header>
 
           <div id='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
@@ -81,7 +77,7 @@ function App() {
             <h4>What do I do?</h4>
 
             <div>
-              <p><a id="cv-link" href="public/Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
+              <p><a id="cv-link" href="./Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
 
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
@@ -111,10 +107,9 @@ function App() {
             <h4>School</h4>
             <h5>TED University</h5>
             <p>
-              Currently studying in computer engineering department.
-              I will graduate this summer. My current GPA is 3.33.
-              I took "Data Structures and Algorithms" courses on Java.
-              In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
+              I graduated from computer engineering department.
+              I will graduate this summer. My current GPA is 3.32.
+              During my education, I studied Data Structures and Algorithms, C Programming, RDBMS, Computer Graphics, Machine Learning, and R Programming
             </p>
 
             <h4>Certificates</h4>
@@ -155,7 +150,7 @@ function App() {
 
             <h5>Pianissimo</h5>
             <h6>senior project</h6>
-            <p>A Python 3 program using wave analysis and AI to create sheet music from audio files. Working with group of 4.</p>
+            <p>A Python 3 program using wave analysis to create sheet music from audio files. Working with group of 4.</p>
 
             <hr width="80%" />
 
