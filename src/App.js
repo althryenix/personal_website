@@ -8,8 +8,6 @@ function App() {
 
   AOS.init();
 
-  window.scrollTo(0, 0);
-
   const StyledButton = (props) => (
 
     <Button
@@ -43,7 +41,7 @@ function App() {
 
           <header className="header" style={{ userSelect: "none" }}>
             <h1 data-aos="fade-down">tamer alkım tokuç</h1>
-            <h6 data-aos="fade-down" data-aos-delay="400">ted university 4<sup>th</sup> grade computer engineering student</h6>
+            <h6 data-aos="fade-down" data-aos-delay="400">web developer</h6>
           </header>
 
           <div id='Body-buttons' data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
@@ -74,15 +72,13 @@ function App() {
 
             <h4>Who am I?</h4>
 
-            <p>I am Tamer Alkım Tokuç, a student from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
+            <p>I am Tamer Alkım Tokuç, a new graduate from Turkey, Ankara. I like to design stuff, build stuff, and try to make them work.</p>
             <p>I am playing drums since 2016. Art plays a big role in my life and I like it to reflect it on my work as well.</p>
             <p>Motorsports are my passion and I volunteer as marshall in TOSFED/FIA.</p>
 
             <h4>What do I do?</h4>
 
             <div>
-              <p><a id="cv-link" href="./Tamer Alkım TOKUÇ - CV.pdf" download>My CV</a></p>
-
               <p>
                 I started learning HTML and CSS for my first internship and continued my frontend web developer
                 career path by learning JavaScript and React. I used both technologies in my second
@@ -112,7 +108,7 @@ function App() {
             <h5>TED University</h5>
             <p>
               Currently studying in computer engineering department.
-              I will graduate this summer. My current GPA is 3.33.
+              I graduated in 2023 with GPA of 3.32.
               I took "Data Structures and Algorithms" courses on Java.
               In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
             </p>
