@@ -107,7 +107,6 @@ function App() {
             <h4>School</h4>
             <h5>TED University</h5>
             <p>
-              Currently studying in computer engineering department.
               I graduated in 2023 with GPA of 3.32.
               I took "Data Structures and Algorithms" courses on Java.
               In addition, I learned C Programming, RDBMS, Computer Graphics, Introduction to Machine Learning, and R Programming
